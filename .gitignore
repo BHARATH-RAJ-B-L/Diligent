@@ -6,6 +6,7 @@ build
 .env
 .env.local
 coverage
+
 frontend/node_modules
 backend/node_modules
 frontend/dist

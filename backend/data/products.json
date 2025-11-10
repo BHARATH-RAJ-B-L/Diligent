@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Classic Tee",
+    "description": "Soft cotton t-shirt",
+    "price": 19.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Apparel",
+    "stock": 50
+  },
+  {
+    "name": "Wireless Headphones",
+    "description": "Noise cancelling over-ear headphones",
+    "price": 129.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Electronics",
+    "stock": 20
+  },
+  {
+    "name": "Water Bottle",
+    "description": "Insulated stainless steel bottle",
+    "price": 24.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Accessories",
+    "stock": 100
+  },
+  {
+    "name": "Notebook A5",
+    "description": "Ruled paper notebook for daily notes",
+    "price": 4.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "General",
+    "stock": 200
+  },
+  {
+    "name": "Ballpoint Pens (Pack of 10)",
+    "description": "Smooth writing blue pens",
+    "price": 5.49,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "General",
+    "stock": 150
+  },
+  {
+    "name": "Coffee Mug",
+    "description": "Ceramic mug 350ml",
+    "price": 8.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "General",
+    "stock": 80
+  },
+  {
+    "name": "USB-C Cable 1m",
+    "description": "Fast charging cable",
+    "price": 9.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Electronics",
+    "stock": 120
+  },
+  {
+    "name": "Laptop Sleeve 13\"",
+    "description": "Protective neoprene sleeve",
+    "price": 14.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Accessories",
+    "stock": 60
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight breathable running shoes",
+    "price": 59.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "Apparel",
+    "stock": 35
+  },
+  {
+    "name": "LED Desk Lamp",
+    "description": "Adjustable arm with 3 brightness modes",
+    "price": 29.99,
+    "images": ["https://via.placeholder.com/400x300"],
+    "category": "General",
+    "stock": 40
+  }
+]
+

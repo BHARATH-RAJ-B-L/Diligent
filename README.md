@@ -33,19 +33,20 @@ A small full-stack e-commerce app.
 
 Below are example UI states you should see once seeded and running:
 
-- Checkout: form with address fields and summary (items, shipping, tax, total).
-- Login: email/password form.
 - Register: name/email/password form.
-- Cart: list of items with quantity selector and subtotal.
+<img width="1483" height="361" alt="Screenshot 2025-11-10 190249" src="https://github.com/user-attachments/assets/5614e932-51ca-4f8d-886f-cdf1f65eedbb" />
+
+- Login: email/password form.
+<img width="1529" height="336" alt="Screenshot 2025-11-10 190235" src="https://github.com/user-attachments/assets/d4a389e7-3a95-4393-b033-fbba45a2ce13" />
+
 - Home: product grid with search, category filter, and Add to cart.
+<img width="1448" height="802" alt="Screenshot 2025-11-10 190129" src="https://github.com/user-attachments/assets/e173da9d-f62f-4845-a6e6-561fd2a6bb85" />
 
-If you'd like to embed screenshots, place images under `docs/screenshots/` and reference them here, for example:
+- Cart: list of items with quantity selector and subtotal.
+<img width="1427" height="460" alt="Screenshot 2025-11-10 190145" src="https://github.com/user-attachments/assets/6a90c040-e3fe-448b-8fea-42a7f35b48d6" />
 
-```md
-![Home](docs/screenshots/home.png)
-![Cart](docs/screenshots/cart.png)
-![Checkout](docs/screenshots/checkout.png)
-```
+- Checkout: form with address fields and summary (items, shipping, tax, total).
+<img width="1463" height="554" alt="Screenshot 2025-11-10 190224" src="https://github.com/user-attachments/assets/21f1e4ae-1718-4a04-a555-ba3e0f984440" />
 
 ## Documentation
 

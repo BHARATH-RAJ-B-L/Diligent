@@ -193,6 +193,3 @@ Status codes used: 200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 403 F
   - Route (alt): `POST /api/seed/products`
 - Tests
   - Backend API tests (Jest + Supertest): `cd backend && npm test`
-
-
-

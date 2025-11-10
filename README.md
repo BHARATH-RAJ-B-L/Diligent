@@ -15,7 +15,10 @@ A small full-stack e-commerce app.
    npm install
    cp .env.example .env   # set values
    npm run dev
-   # Seed products
+   # Seed products (choose one)
+   # a) Script (recommended)
+   npm run seed
+   # b) HTTP route
    curl -X POST http://localhost:5000/api/seed/products
    ```
 2. Frontend
@@ -25,6 +28,24 @@ A small full-stack e-commerce app.
    echo "VITE_API_BASE_URL=http://localhost:5000" > .env
    npm run dev
    ```
+
+## Screenshots
+
+Below are example UI states you should see once seeded and running:
+
+- Checkout: form with address fields and summary (items, shipping, tax, total).
+- Login: email/password form.
+- Register: name/email/password form.
+- Cart: list of items with quantity selector and subtotal.
+- Home: product grid with search, category filter, and Add to cart.
+
+If you'd like to embed screenshots, place images under `docs/screenshots/` and reference them here, for example:
+
+```md
+![Home](docs/screenshots/home.png)
+![Cart](docs/screenshots/cart.png)
+![Checkout](docs/screenshots/checkout.png)
+```
 
 ## Documentation
 

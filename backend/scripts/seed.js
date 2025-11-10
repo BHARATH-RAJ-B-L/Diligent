@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import connectDB from '../config/db.js';
 import Product from '../src/models/Product.js';
 import User from '../src/models/User.js';
@@ -16,7 +17,10 @@ async function run() {
 			const passwordHash = await User.hashPassword(process.env.SEED_ADMIN_PASSWORD || 'Admin@123');
 			admin = await User.create({ name: 'Admin', email: adminEmail, passwordHash, isAdmin: true });
 		}
-		const file = path.join(process.cwd(), 'backend', 'data', 'products.json');
+		// Resolve products.json relative to this script file
+		const __filename = fileURLToPath(import.meta.url);
+		const __dirname = path.dirname(__filename);
+		const file = path.join(__dirname, '..', 'data', 'products.json');
 		const raw = fs.readFileSync(file, 'utf-8');
 		const sample = JSON.parse(raw);
 		await Product.deleteMany({});

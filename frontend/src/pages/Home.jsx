@@ -3,6 +3,7 @@ import { getProducts } from '../services/api.js';
 import ProductList from '../components/ProductList.jsx';
 import SearchBar from '../components/SearchBar.jsx';
 import Pagination from '../components/Pagination.jsx';
+import demoProducts from '../data/demoProducts.js';
 
 export default function Home() {
 	const [products, setProducts] = useState([]);
@@ -24,14 +25,23 @@ export default function Home() {
 			try {
 				const res = await getProducts(params);
 				// Support both {items,...} and {data,...} backends
-				const list = res.items || res.data || [];
+				let list = res.items || res.data || [];
+				// If API returned empty, show demo items for better UX
+				if (!Array.isArray(list) || list.length === 0) {
+					list = demoProducts;
+				}
 				setProducts(list);
 				const totalPages = res.pagination?.pages || res.pages || 1;
 				setPages(totalPages);
 				const cats = Array.from(new Set(list.map((p) => p.category))).sort();
 				setCategories(cats);
 			} catch (e) {
-				setError(e?.response?.data?.message || e.message || 'Failed to load products');
+				// On failure, present demo items
+				setProducts(demoProducts);
+				const cats = Array.from(new Set(demoProducts.map((p) => p.category))).sort();
+				setCategories(cats);
+				setPages(1);
+				setError(e?.response?.data?.message || e.message || 'Failed to load products (showing demo items)');
 			} finally {
 				setLoading(false);
 			}

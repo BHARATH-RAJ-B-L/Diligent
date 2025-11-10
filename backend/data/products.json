@@ -1,83 +1,722 @@
 [
   {
+    "name": "Wireless Headphones",
+    "description": "Over-ear ANC headphones with 30h battery",
+    "price": 129.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-headphones/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 40
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass",
+    "price": 49.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-speaker/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 80
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Fitness tracking and notifications",
+    "price": 89.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-smartwatch/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 55
+  },
+  {
+    "name": "USB-C Cable 1m",
+    "description": "Fast charging braided cable",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-cable/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 200
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "Ergonomic 2.4G mouse",
+    "price": 15.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-mouse/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 120
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "description": "Blue switches, RGB backlight",
+    "price": 69.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-keyboard/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 35
+  },
+  {
+    "name": "1080p Webcam",
+    "description": "Full HD webcam with mic",
+    "price": 39.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-webcam/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 75
+  },
+  {
+    "name": "Power Bank 20,000mAh",
+    "description": "Fast charging dual-port",
+    "price": 29.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-powerbank/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 90
+  },
+  {
+    "name": "Laptop Stand",
+    "description": "Aluminum adjustable stand",
+    "price": 24.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-stand/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 60
+  },
+  {
+    "name": "Noise Cancelling Earbuds",
+    "description": "In-ear ANC with case",
+    "price": 79.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-earbuds/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 70
+  },
+  {
+    "name": "4K HDMI Cable",
+    "description": "High-speed 2m cable",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-hdmi/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 140
+  },
+  {
+    "name": "External SSD 1TB",
+    "description": "USB-C NVMe portable drive",
+    "price": 119.99,
+    "images": [
+      "https://picsum.photos/seed/electronics-ssd/400/300"
+    ],
+    "category": "Electronics",
+    "stock": 25
+  },
+  {
     "name": "Classic Tee",
     "description": "Soft cotton t-shirt",
     "price": 19.99,
-    "images": ["https://via.placeholder.com/400x300"],
+    "images": [
+      "https://picsum.photos/seed/apparel-tee/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 100
+  },
+  {
+    "name": "Hoodie",
+    "description": "Fleece-lined hoodie",
+    "price": 39.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-hoodie/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 60
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Breathable lightweight shoes",
+    "price": 59.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-shoes/400/300"
+    ],
     "category": "Apparel",
     "stock": 50
   },
   {
-    "name": "Wireless Headphones",
-    "description": "Noise cancelling over-ear headphones",
-    "price": 129.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "Electronics",
-    "stock": 20
+    "name": "Jeans",
+    "description": "Slim fit denim",
+    "price": 44.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-jeans/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 80
+  },
+  {
+    "name": "Baseball Cap",
+    "description": "Adjustable cotton cap",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-cap/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 150
+  },
+  {
+    "name": "Socks (5-pack)",
+    "description": "Cushioned crew socks",
+    "price": 14.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-socks/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 120
+  },
+  {
+    "name": "Rain Jacket",
+    "description": "Waterproof lightweight jacket",
+    "price": 69.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-rain/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 40
+  },
+  {
+    "name": "Polo Shirt",
+    "description": "Breathable pique fabric",
+    "price": 24.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-polo/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 90
+  },
+  {
+    "name": "Athletic Shorts",
+    "description": "Quick-dry training shorts",
+    "price": 21.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-shorts/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 70
+  },
+  {
+    "name": "Yoga Pants",
+    "description": "High-waist stretch leggings",
+    "price": 27.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-leggings/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 65
+  },
+  {
+    "name": "Flannel Shirt",
+    "description": "Brushed cotton plaid",
+    "price": 34.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-flannel/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 55
+  },
+  {
+    "name": "Beanie",
+    "description": "Knit winter hat",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/apparel-beanie/400/300"
+    ],
+    "category": "Apparel",
+    "stock": 110
   },
   {
     "name": "Water Bottle",
     "description": "Insulated stainless steel bottle",
     "price": 24.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "Accessories",
-    "stock": 100
-  },
-  {
-    "name": "Notebook A5",
-    "description": "Ruled paper notebook for daily notes",
-    "price": 4.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "General",
-    "stock": 200
-  },
-  {
-    "name": "Ballpoint Pens (Pack of 10)",
-    "description": "Smooth writing blue pens",
-    "price": 5.49,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "General",
-    "stock": 150
-  },
-  {
-    "name": "Coffee Mug",
-    "description": "Ceramic mug 350ml",
-    "price": 8.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "General",
-    "stock": 80
-  },
-  {
-    "name": "USB-C Cable 1m",
-    "description": "Fast charging cable",
-    "price": 9.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "Electronics",
+    "images": [
+      "https://picsum.photos/seed/home-bottle/400/300"
+    ],
+    "category": "Home & Kitchen",
     "stock": 120
   },
   {
-    "name": "Laptop Sleeve 13\"",
-    "description": "Protective neoprene sleeve",
-    "price": 14.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "Accessories",
+    "name": "LED Desk Lamp",
+    "description": "3 brightness modes",
+    "price": 29.99,
+    "images": [
+      "https://picsum.photos/seed/home-lamp/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 80
+  },
+  {
+    "name": "Ceramic Dinner Set",
+    "description": "16-piece dinnerware",
+    "price": 59.99,
+    "images": [
+      "https://picsum.photos/seed/home-dinner/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 30
+  },
+  {
+    "name": "Chef Knife",
+    "description": "8-inch stainless steel",
+    "price": 22.99,
+    "images": [
+      "https://picsum.photos/seed/home-knife/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 90
+  },
+  {
+    "name": "Cutting Board",
+    "description": "Bamboo board large",
+    "price": 17.99,
+    "images": [
+      "https://picsum.photos/seed/home-board/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 100
+  },
+  {
+    "name": "Nonstick Frying Pan",
+    "description": "28cm induction-ready",
+    "price": 34.99,
+    "images": [
+      "https://picsum.photos/seed/home-pan/400/300"
+    ],
+    "category": "Home & Kitchen",
     "stock": 60
   },
   {
-    "name": "Running Shoes",
-    "description": "Lightweight breathable running shoes",
-    "price": 59.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "Apparel",
-    "stock": 35
+    "name": "Vacuum Storage Bags",
+    "description": "6-pack space savers",
+    "price": 19.99,
+    "images": [
+      "https://picsum.photos/seed/home-bags/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 140
   },
   {
-    "name": "LED Desk Lamp",
-    "description": "Adjustable arm with 3 brightness modes",
+    "name": "Throw Blanket",
+    "description": "Soft fleece 150x200cm",
+    "price": 24.99,
+    "images": [
+      "https://picsum.photos/seed/home-blanket/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 85
+  },
+  {
+    "name": "Pillow Set",
+    "description": "Set of 2 hypoallergenic",
     "price": 29.99,
-    "images": ["https://via.placeholder.com/400x300"],
-    "category": "General",
+    "images": [
+      "https://picsum.photos/seed/home-pillow/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 70
+  },
+  {
+    "name": "Laundry Basket",
+    "description": "Foldable fabric hamper",
+    "price": 16.99,
+    "images": [
+      "https://picsum.photos/seed/home-basket/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 90
+  },
+  {
+    "name": "Coffee Mug Set",
+    "description": "4 ceramic mugs 350ml",
+    "price": 18.99,
+    "images": [
+      "https://picsum.photos/seed/home-mug/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 95
+  },
+  {
+    "name": "Spice Rack",
+    "description": "Tiered organizer",
+    "price": 14.99,
+    "images": [
+      "https://picsum.photos/seed/home-spice/400/300"
+    ],
+    "category": "Home & Kitchen",
+    "stock": 110
+  },
+  {
+    "name": "Yoga Mat",
+    "description": "Non-slip 6mm mat",
+    "price": 21.99,
+    "images": [
+      "https://picsum.photos/seed/sport-mat/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 100
+  },
+  {
+    "name": "Dumbbell Set 10kg",
+    "description": "Pair with neoprene grip",
+    "price": 49.99,
+    "images": [
+      "https://picsum.photos/seed/sport-dumbbell/400/300"
+    ],
+    "category": "Sports & Outdoors",
     "stock": 40
+  },
+  {
+    "name": "Resistance Bands",
+    "description": "Set of 5 levels",
+    "price": 14.99,
+    "images": [
+      "https://picsum.photos/seed/sport-bands/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 150
+  },
+  {
+    "name": "Jump Rope",
+    "description": "Adjustable speed rope",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/sport-rope/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 160
+  },
+  {
+    "name": "Camping Lantern",
+    "description": "Rechargeable LED",
+    "price": 25.99,
+    "images": [
+      "https://picsum.photos/seed/sport-lantern/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 70
+  },
+  {
+    "name": "Hiking Backpack 30L",
+    "description": "Water-resistant daypack",
+    "price": 39.99,
+    "images": [
+      "https://picsum.photos/seed/sport-backpack/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 60
+  },
+  {
+    "name": "Stainless Water Bottle",
+    "description": "BPA-free 750ml",
+    "price": 14.99,
+    "images": [
+      "https://picsum.photos/seed/sport-bottle/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 130
+  },
+  {
+    "name": "Cycling Gloves",
+    "description": "Padded breathable",
+    "price": 16.99,
+    "images": [
+      "https://picsum.photos/seed/sport-gloves/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 90
+  },
+  {
+    "name": "Football Size 5",
+    "description": "Durable PU cover",
+    "price": 19.99,
+    "images": [
+      "https://picsum.photos/seed/sport-football/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 80
+  },
+  {
+    "name": "Tennis Balls (3)",
+    "description": "Pressurized balls",
+    "price": 7.99,
+    "images": [
+      "https://picsum.photos/seed/sport-tennis/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 140
+  },
+  {
+    "name": "Swim Goggles",
+    "description": "Anti-fog UV protection",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/sport-goggles/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 120
+  },
+  {
+    "name": "Picnic Blanket",
+    "description": "Waterproof foldable",
+    "price": 22.99,
+    "images": [
+      "https://picsum.photos/seed/sport-picnic/400/300"
+    ],
+    "category": "Sports & Outdoors",
+    "stock": 75
+  },
+  {
+    "name": "Moisturizing Lotion",
+    "description": "Hydrating daily lotion",
+    "price": 11.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-lotion/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 150
+  },
+  {
+    "name": "Shampoo",
+    "description": "Sulfate-free cleanse",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-shampoo/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 140
+  },
+  {
+    "name": "Conditioner",
+    "description": "Smooth and detangle",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-conditioner/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 140
+  },
+  {
+    "name": "Facial Cleanser",
+    "description": "Gentle foaming wash",
+    "price": 8.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-cleanser/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 130
+  },
+  {
+    "name": "Sunscreen SPF 50",
+    "description": "Broad spectrum",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-sunscreen/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 110
+  },
+  {
+    "name": "Lip Balm (2-pack)",
+    "description": "Shea butter balm",
+    "price": 4.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-lipbalm/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 200
+  },
+  {
+    "name": "Body Wash",
+    "description": "Refreshing citrus",
+    "price": 7.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-bodywash/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 160
+  },
+  {
+    "name": "Hand Cream",
+    "description": "Fast-absorbing",
+    "price": 5.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-handcream/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 170
+  },
+  {
+    "name": "Deodorant",
+    "description": "Aluminum-free",
+    "price": 6.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-deodorant/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 180
+  },
+  {
+    "name": "Hair Brush",
+    "description": "Detangling paddle",
+    "price": 6.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-brush/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 150
+  },
+  {
+    "name": "Face Mask (Sheet 5x)",
+    "description": "Hydrating masks",
+    "price": 9.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-mask/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 130
+  },
+  {
+    "name": "Nail Clippers Set",
+    "description": "Stainless steel",
+    "price": 5.99,
+    "images": [
+      "https://picsum.photos/seed/beauty-nail/400/300"
+    ],
+    "category": "Beauty & Personal Care",
+    "stock": 190
+  },
+  {
+    "name": "Mystery Novel",
+    "description": "A gripping whodunit",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/books-mystery/400/300"
+    ],
+    "category": "Books",
+    "stock": 80
+  },
+  {
+    "name": "Science Fiction",
+    "description": "Journey through space",
+    "price": 13.99,
+    "images": [
+      "https://picsum.photos/seed/books-scifi/400/300"
+    ],
+    "category": "Books",
+    "stock": 80
+  },
+  {
+    "name": "Fantasy Epic",
+    "description": "Dragons and magic",
+    "price": 14.99,
+    "images": [
+      "https://picsum.photos/seed/books-fantasy/400/300"
+    ],
+    "category": "Books",
+    "stock": 70
+  },
+  {
+    "name": "Historical Fiction",
+    "description": "Past comes alive",
+    "price": 11.99,
+    "images": [
+      "https://picsum.photos/seed/books-historical/400/300"
+    ],
+    "category": "Books",
+    "stock": 90
+  },
+  {
+    "name": "Self-Help",
+    "description": "Habits and productivity",
+    "price": 10.99,
+    "images": [
+      "https://picsum.photos/seed/books-selfhelp/400/300"
+    ],
+    "category": "Books",
+    "stock": 100
+  },
+  {
+    "name": "Cookbook",
+    "description": "Everyday recipes",
+    "price": 16.99,
+    "images": [
+      "https://picsum.photos/seed/books-cookbook/400/300"
+    ],
+    "category": "Books",
+    "stock": 60
+  },
+  {
+    "name": "Biography",
+    "description": "Inspiring life story",
+    "price": 12.49,
+    "images": [
+      "https://picsum.photos/seed/books-bio/400/300"
+    ],
+    "category": "Books",
+    "stock": 75
+  },
+  {
+    "name": "Thriller",
+    "description": "Fast-paced suspense",
+    "price": 12.99,
+    "images": [
+      "https://picsum.photos/seed/books-thriller/400/300"
+    ],
+    "category": "Books",
+    "stock": 85
+  },
+  {
+    "name": "Romance",
+    "description": "Heartwarming tale",
+    "price": 10.99,
+    "images": [
+      "https://picsum.photos/seed/books-romance/400/300"
+    ],
+    "category": "Books",
+    "stock": 95
+  },
+  {
+    "name": "Business Strategy",
+    "description": "Compete and win",
+    "price": 15.99,
+    "images": [
+      "https://picsum.photos/seed/books-business/400/300"
+    ],
+    "category": "Books",
+    "stock": 65
+  },
+  {
+    "name": "Programming 101",
+    "description": "Learn to code basics",
+    "price": 18.99,
+    "images": [
+      "https://picsum.photos/seed/books-programming/400/300"
+    ],
+    "category": "Books",
+    "stock": 55
+  },
+  {
+    "name": "Travel Guide",
+    "description": "Explore new places",
+    "price": 13.49,
+    "images": [
+      "https://picsum.photos/seed/books-travel/400/300"
+    ],
+    "category": "Books",
+    "stock": 70
   }
 ]
-

@@ -55,7 +55,6 @@ curl -X POST http://localhost:5000/api/orders \
     }
   }'
 ```
-
 ### Seed products
 ```bash
 curl -X POST http://localhost:5000/api/seed/products
